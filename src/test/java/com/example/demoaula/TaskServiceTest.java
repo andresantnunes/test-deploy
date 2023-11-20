@@ -1,5 +1,8 @@
 package com.example.demoaula;
 
+import com.example.demoaula.dataprovider.Task;
+import com.example.demoaula.dataprovider.TaskRepository;
+import com.example.demoaula.service.TaskService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

@@ -1,4 +1,4 @@
-package com.example.demoaula;
+package com.example.demoaula.dataprovider;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
