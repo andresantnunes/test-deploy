@@ -29,3 +29,8 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: Validar Código
+      run: mvn verify --file pom.xml
+    - name: Executar Testes
+      run: mvn test --file pom.xml
+
